@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/threads', function () {
     return view('welcome');
 });

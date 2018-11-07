@@ -20,6 +20,8 @@ class ThreadsTest extends TestCase
 /** @test  */
     public function this_test_()
     {
-        
+        $response = $this->get('/threads');
+
+        $response->assertStatus(200);
     }
 }
